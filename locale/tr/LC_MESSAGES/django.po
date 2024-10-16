@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-06 14:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\corporate\settings.py:117
+msgid "Turkish"
+msgstr ""
+
+#: .\corporate\settings.py:118
+msgid "English"
+msgstr ""
+
+#: .\tcore\models.py:8 .\tcore\templates\contact.html:16
+msgid "Ad Soyad"
+msgstr ""
+
+#: .\tcore\models.py:9 .\tcore\templates\contact.html:20
+msgid "Telefon"
+msgstr ""
+
+#: .\tcore\models.py:11 .\tcore\templates\contact.html:28
+msgid "Mesaj"
+msgstr ""
+
+#: .\tcore\models.py:19 .\tcore\models.py:49 .\tcore\models.py:70
+msgid "Başlık"
+msgstr ""
+
+#: .\tcore\models.py:20 .\tcore\models.py:51
+msgid "İçerik"
+msgstr ""
+
+#: .\tcore\models.py:35
+msgid "Ad"
+msgstr ""
+
+#: .\tcore\models.py:52
+msgid "Kategori"
+msgstr ""
+
+#: .\tcore\models.py:53
+msgid "Görüntülenme"
+msgstr ""
+
+#: .\tcore\models.py:55
+msgid "Oluşturulma Tarihi"
+msgstr ""
+
+#: .\tcore\models.py:56
+msgid "Güncellenme Tarihi"
+msgstr ""
+
+#: .\tcore\models.py:68
+msgid "Logo 1"
+msgstr ""
+
+#: .\tcore\models.py:69
+msgid "logo 2"
+msgstr ""
+
+#: .\tcore\models.py:71
+msgid "Açıklama"
+msgstr ""
+
+#: .\tcore\models.py:72
+msgid "Anahtar Kelimeler"
+msgstr ""
+
+#: .\tcore\models.py:73
+msgid "Sabit Telefon"
+msgstr ""
+
+#: .\tcore\models.py:74
+msgid "Cep Telefonu"
+msgstr ""
+
+#: .\tcore\models.py:75
+msgid "Faks"
+msgstr ""
+
+#: .\tcore\models.py:77
+msgid "Şehir"
+msgstr ""
+
+#: .\tcore\models.py:78
+msgid "İlçe"
+msgstr ""
+
+#: .\tcore\models.py:79
+msgid "Adres"
+msgstr ""
+
+#: .\tcore\models.py:80
+msgid "Posta Kodu"
+msgstr ""
+
+#: .\tcore\models.py:81
+msgid "Facebook"
+msgstr ""
+
+#: .\tcore\models.py:82
+msgid "Twitter - X"
+msgstr ""
+
+#: .\tcore\models.py:83
+msgid "Instagram"
+msgstr ""
+
+#: .\tcore\models.py:84
+msgid "Youtube"
+msgstr ""
+
+#: .\tcore\templates\blogs.html:26 .\tcore\templates\index.html:159
+msgid "Detaylar"
+msgstr ""
+
+#: .\tcore\templates\blogs.html:65 .\tcore\templates\blogs.html:70
+msgid "Arama"
+msgstr ""
+
+#: .\tcore\templates\blogs.html:78
+msgid "Popüler Bloglar"
+msgstr ""
+
+#: .\tcore\templates\blogs.html:117
+msgid "Kategoriler"
+msgstr ""
+
+#: .\tcore\templates\blogs.html:134
+msgid "Etiketler"
+msgstr ""
+
+#: .\tcore\templates\contact.html:13 .\templates\base.html:51
+msgid "İletişim"
+msgstr ""
+
+#: .\tcore\templates\contact.html:24
+msgid "E-mail"
+msgstr ""
+
+#: .\tcore\templates\contact.html:31
+msgid "Gönder"
+msgstr ""
+
+#: .\tcore\templates\index.html:7
+msgid "RcpOlcy Kurumsal İnternet Sitesi"
+msgstr ""
+
+#: .\tcore\templates\index.html:41 .\templates\base.html:42
+msgid "Hakkımızda"
+msgstr ""
+
+#: .\tcore\templates\index.html:54
+msgid "Daha Fazla"
+msgstr ""
+
+#: .\tcore\templates\index.html:65 .\tcore\templates\services.html:13
+#: .\templates\base.html:45
+msgid "Hizmetler"
+msgstr ""
+
+#: .\tcore\templates\index.html:151 .\templates\base.html:48
+msgid "Blog"
+msgstr ""
+
+#: .\templates\base.html:39
+msgid "Anasayfa"
+msgstr ""
+
+#: .\templates\base.html:58
+msgid "Dil"
+msgstr ""

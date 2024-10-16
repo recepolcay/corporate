@@ -1,0 +1,71 @@
+{% load i18n %}
+{% load static %}
+
+
+   
+
+   <!-- Sidebar Area -->
+   <div class="col-md-4">
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">{% translate 'Arama' %}</h5>
+            <form method="get" action="{% url 'blog-search' %}">
+                <div class="mb-3">
+                    <input type="text" name="q" class="form-control" placeholder="Arama...">
+                </div>
+                <button type="submit" class="btn btn-primary">{% translate 'Arama' %}</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    
+
+    <!-- Popular Blogs -->
+
+    
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title mb-4">{% translate 'Popüler Bloglar' %}</h5>
+            <ul class="list-group">
+                <!-- Blog 1 -->
+                {% for popular in PBlogs %}
+                <li class="list-group-item">
+                    <a class="text-decoration-none" href="{% url 'blog-details' slug=popular.slug %}">{{popular.title}}</a>
+                    <p class="card-text">{{popular.content|safe|truncatechars:75}}</p>
+                </li>
+                {% endfor %}
+              
+            
+             
+            </ul>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">{% translate 'Kategoriler' %}</h5>
+            <!-- List of categories -->
+            <ul class="list-group list-group-flush">
+                {% for category in Categories %}
+                <a class="list-group-item" href="{% url 'category-details' slug=category.slug %}">{{category.name}}</a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Tags Cloud -->
+    <div style="margin-bottom: 60px !important;" class="card mt-4">
+        <div class="card-body">
+            <h5 class="card-title">{% translate 'Etiketler' %}</h5>
+            <!-- Tags cloud -->
+            <div class="col-md-12">
+                {% for tag in most_common_tags %}
+                <button type="button" class="btn btn-secondary my-2 me-1">{{tag.name}} {{tag.num_times}}</button>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

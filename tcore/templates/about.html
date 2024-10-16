@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% load i18n %}
+
+{% block title %}Hakkımızda{% endblock %}
+{% block page_description %} Hakkımızda sayfa içeriği {% endblock %}
+
+{% block extracss %}{% endblock %}
+{% block content %}
+<!--Hakkımızda-->
+<div class="row">
+    <div class="col-md-12 mb-4">
+        <h2 class="mb-4">{{Abouts.title}}</h2>
+        <p>{{Abouts.content|safe}}</p>
+    </div>
+
+   
+</div>
+<!--Hakkımızda-->
+{% endblock %}
+
